@@ -3,6 +3,10 @@
 	"version": "0.0.1",
 	"author": "Stefan Bilharz <s.bilharz@web.de>",
 	"keywords": ["random string","password","generator","random","pw"],
+	"homepage": "git://github.com/drd0rk/strgen",
+	"bugs": {
+		"url": "git://github.com/drd0rk/strgen/issues/"
+	},
 	"dependencies": {
 		"coffee-script": "1.2.x"
 	},
@@ -19,5 +23,11 @@
 		"url": "http://opensource.org/licenses/mit-license.php"
 		}
 	],
+	"repositories": [
+       {
+           "type": "git",
+           "url": "git://github.com/drd0rk/strgen.git"
+       }
+   ],
 	"engine": {"node": "0.6.x"}	
 }
