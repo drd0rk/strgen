@@ -5,12 +5,14 @@ strgen = require '../'
 vows
 	.describe('StrGen')
 	.addBatch
-		"when getting all ASCII chars":
-			topic: () ->
-				strgen.getAllPrintableASCIIChars()
+		"when setting the alphabet to":
+			"all printable ascii characters":
+				topic: () ->
+					strgen.setAlphabet "ascii"
+					strgen
 				
-			"the array is of length 222": (topic) ->
-				assert.ok topic.length == 222
+				"the alphabet is of length 222": (topic) ->
+					assert.ok topic.alphabet.length == 222
 				
 		"when setting the length to": 
 			"1":
