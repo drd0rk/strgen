@@ -8,11 +8,11 @@
 		"url": "git://github.com/drd0rk/strgen/issues/"
 	},
 	"dependencies": {
-		"pkginfo": "0.2.x",
-		"coffee-script": "1.2.x"
+		"pkginfo": "0.2.x"
 	},
 	"devDependencies": {
-		"vows": ">= 0.5.13"
+		"coffee-script": "1.2.x",
+		"vows": "0.5.x"
 	},
 	"main": "lib/strgen",
 	"directories": {
@@ -28,5 +28,11 @@
      "type": "git",
      "url": "git://github.com/drd0rk/strgen.git"
    },
-	"engines": {"node": "0.6.x"}	
+	"engines": {
+		"node": "0.6.x"
+	},
+	"scripts": {
+		"test": "NODE_ENV=test node_modules/.bin/vows --spec test/*.coffee",
+		"watch": "node_modules/.bin/coffee -c -w -o lib src"
+	}
 }
