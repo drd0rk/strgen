@@ -1,6 +1,6 @@
 {
 	"name": "strgen",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"author": "Stefan Bilharz <s.bilharz@web.de>",
 	"keywords": ["random string","password","string","generator","random","pw"],
 	"homepage": "git://github.com/drd0rk/strgen",
