@@ -1,6 +1,6 @@
 {
 	"name": "strgen",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"author": "Stefan Bilharz <s.bilharz@web.de>",
 	"keywords": ["random string","password","string","generator","random","pw"],
 	"homepage": "git://github.com/drd0rk/strgen",
@@ -23,11 +23,9 @@
 		"url": "http://opensource.org/licenses/mit-license.php"
 		}
 	],
-	"repositories": [
-       {
-           "type": "git",
-           "url": "git://github.com/drd0rk/strgen.git"
-       }
-   ],
-	"engine": {"node": "0.6.x"}	
+	"repository": {
+     "type": "git",
+     "url": "git://github.com/drd0rk/strgen.git"
+   },
+	"engines": {"node": "0.6.x"}	
 }
