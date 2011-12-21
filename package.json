@@ -1,6 +1,7 @@
 {
 	"name": "strgen",
 	"version": "0.0.2",
+	"description": "Generates random strings of a given length from a chosen or given alphabet.",
 	"author": "Stefan Bilharz <s.bilharz@web.de>",
 	"keywords": ["random string","password","string","generator","random","pw"],
 	"homepage": "https://github.com/drd0rk/strgen",
