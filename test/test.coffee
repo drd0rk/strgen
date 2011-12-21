@@ -5,6 +5,13 @@ strgen = require '../'
 vows
 	.describe('StrGen')
 	.addBatch
+		"when generating without configuring":
+			topic: () ->
+				strgen.generate()
+				
+			"we get a string of length 64": (topic) ->
+				assert.equal topic.length,64
+				
 		"when setting the alphabet to":
 			"all printable ascii characters":
 				topic: () ->
@@ -22,12 +29,12 @@ vows
 				"an error is thrown": (topic) ->
 					assert.throws () -> topic.setLength 1
 			
-			"64":
+			"76":
 				topic: () ->
-					strgen.setLength 64
+					strgen.setLength 76
 					strgen.generate()
 				
-				"we get a string of length 64": (topic) ->
-					assert.equal topic.length,64
+				"we get a string of length 76": (topic) ->
+					assert.equal topic.length,76
 		
 .exportTo(module)

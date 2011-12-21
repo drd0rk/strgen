@@ -11,7 +11,7 @@ module.exports = class StrGen
 		"special_email": "-_."
 		"special_other": "@|:;#~'`?}{][&%$§!><+*/()"
 		
-	@alphabet = ""
+	@alphabet = @chars.abc.concat @chars.ABC.concat @chars.digits.concat @chars.special_email.concat @chars.special_other
 	
 	# generates the random string
 	@generate: () ->
