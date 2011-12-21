@@ -8,6 +8,7 @@
 		"url": "git://github.com/drd0rk/strgen/issues/"
 	},
 	"dependencies": {
+		"pkginfo": "0.2.x",
 		"coffee-script": "1.2.x"
 	},
 	"devDependencies": {

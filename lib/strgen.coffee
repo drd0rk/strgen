@@ -1,3 +1,5 @@
+pgkinfo = require("pkginfo")(module,"version")
+
 module.exports = class StrGen
 
 	# the length of the generated string
