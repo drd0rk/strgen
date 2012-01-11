@@ -1,6 +1,6 @@
 {
 	"name": "strgen",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Generates random strings of a given length from a chosen or given alphabet.",
 	"author": "Stefan Bilharz <s.bilharz@web.de>",
 	"keywords": ["random string","password","string","generator","random","pw"],
@@ -30,7 +30,7 @@
      "url": "git://github.com/drd0rk/strgen.git"
    },
 	"engines": {
-		"node": "0.6.x"
+		"node": ">=0.6"
 	},
 	"scripts": {
 		"test": "NODE_ENV=test node_modules/.bin/vows --spec test/*.coffee",
