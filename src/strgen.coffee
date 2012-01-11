@@ -26,7 +26,7 @@ module.exports = class StrGen
 		
 	# define the length of the generated string
 	@setLength: (len) ->
-		throw new Error "String length must be at least 2, "+len+" given" if len < 2
+		throw new Error "String length must be at least 1, "+len+" given" if len < 1
 		@strLength = len
 	
 	# define the alphabet of the generated string
